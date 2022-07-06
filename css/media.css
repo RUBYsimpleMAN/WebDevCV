@@ -67,7 +67,7 @@
       padding: 0;
     }
     .clickable-icon .phone-number {
-      /* font-size: 12vh; */
+      font-size: 12vh;
     }
     .clickable-icon a i img {
       min-height: 2vh;

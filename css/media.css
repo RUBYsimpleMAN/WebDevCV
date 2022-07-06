@@ -1,0 +1,88 @@
+.MainBlock_MainBlockClassName {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  padding: 0 4%;
+}
+.MainBlock_MainExtraClassName {
+  width: 78%;
+  padding: 0 1%;
+}
+.MainBlock_AsideExtraClassName {
+  width: 20%;
+  padding: 0 1%;
+}
+
+.AsideActive_SelfStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 95%;
+  max-height: 95%;
+  padding: 2vh 1% 0%;
+  font-family: Lato;
+  font-size: calc(3.5vw - (1vw - 0.3vw));
+  font-weight: 300;
+  text-align: center;
+  color: silver;
+  line-height: calc(6px + 5vmin);
+  border: 1px solid #61dafb80;
+  border-radius: 3px;
+  background-color: #61dafb20;
+  overflow: hidden;
+}
+.AsideActive_ChampionSportAndYear {
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+.AsideActive_ChampionAthlete {
+  padding-top: 2vh;
+}
+.AsideActive_ChampionCountry {
+  font-size: 1.6vw;
+  font-weight: 600;
+  padding: 1vh;
+}
+
+.AsideActive_ImgGoldMedal,
+.AsideActive_ImgSilverMedal,
+.AsideActive_ImgBronzeMedal {
+  width: 5vw;
+}
+
+
+/* @media only screen and (max-width : 1280px) {} */
+
+@media only screen and (max-width: 1024px) {
+    .person__clickable-icons {
+      display: flex;
+      flex-direction: column;
+    }
+    .person__clickable-icons__left-block {
+      justify-content: center;
+    }
+    .person__clickable-icons__right-block {
+      justify-content: unset;
+      padding: 0;
+    }
+    .clickable-icon .phone-number {
+      /* font-size: 12vh; */
+    }
+    .clickable-icon a i img {
+      min-height: 2vh;
+      max-height: 12vmin;
+    }
+  }
+
+/* Medium Devices, Desktops */
+/* @media only screen and (max-width : 992px) {} */
+
+/* Small Devices, Tablets */
+/* @media only screen and (max-width : 768px) {} */
+
+/* Extra Small Devices, Phones */
+/* @media only screen and (max-width : 480px) {} */
+
+/* Custom, iPhone Retina */
+/* @media only screen and (max-width : 320px) {} */

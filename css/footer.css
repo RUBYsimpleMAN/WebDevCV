@@ -1,0 +1,40 @@
+/* footer {
+  position: absolute;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 12vh;
+  max-height: 12vh;
+}
+footer .footer__scoupe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 12vh;
+  padding: 0 8vh 0 6vh;
+}
+footer .round-mark__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 7vh;
+  min-height: 7vh;
+}
+footer .round-mark {
+  width: 5vh;
+  height: 5vh;
+  background: #15293E;
+  border-radius: 5vh;
+}
+footer .footer__scoupe .confidentiality {
+  font-family: inherit;
+}
+footer .footer__scoupe .oferta {
+  font-family: inherit;
+}
+footer .footer__scoupe .opensource {
+  font-family: inherit;
+}
+footer .footer__scoupe  .opensource .open-source-link {
+  font-weight: 700;
+} */
+

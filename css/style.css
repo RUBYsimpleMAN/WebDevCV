@@ -57,14 +57,14 @@
 .person__clickable-icons__left-block {
   display: flex;
   min-height: 5vh;
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
   /* background-color: #027BCE; */
 }
 .person__clickable-icons__right-block {
   display: flex;
   justify-content: end;
   min-height: 5vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* background-color: #027BCE; */
 }
 .clickable-icon {

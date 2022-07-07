@@ -1,93 +1,86 @@
 .wrapper {
   box-sizing: border-box;
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center;
-  align-content: center; */
   min-width: 80vw;
   max-width: 80vw;
-  /* min-height: 96vh;
-  max-height: 96vh; */
   padding: 0;
-  margin: 2% auto;
+  margin: 4% auto;
   border-radius: 16px;
   box-shadow: 0 0 24px #027BCE;
 }
-/* .headText {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 90vw;
-  max-width: 90vw;
-  min-height: 10vh;
-  max-height: 10vh;
-  font-size: 3vmax;
-  text-align: center;
-  border: 2px solid silver;
-} */
-
 .wrapper .content {
   margin: 0;
-  padding: 0;
+  padding: 2%;
 }
 .wrapper .person__name {
-  margin: 7%;
-  padding: 0;
-  font-size: 3rem;
+  margin: 8% 2% 0 14%;
+  font-size: 5rem;
 }
 .cv__category-title {
-  margin: 2%;
-  padding: 0;
-  font-size: 2rem;
+  margin: 4% 2% 0 14%;
+  font-size: 3rem;
 }
 .person__target {
-  margin: 2%;
-  padding: 0;
-  /* font-size: 2rem; */
+  font-size: 1rem;
 }
 .person__clickable-icons {
   display: flex;
   justify-content: space-between;
-  margin: 2%;
-  padding: 0;
-  /* border: 2px solid #027BCE; */
-  /* font-size: 2rem; */
   min-height: 7vh;
+  padding: 0;
 }
 .person__clickable-icons__left-block {
   display: flex;
-  min-height: 5vh;
+  min-height: 6vh;
   /* border: 2px solid magenta; */
   /* background-color: #027BCE; */
+}
+.person__clickable-icons__left-block .clickable-icon a i img:nth-child(1) {
+  display: block;
+  min-height: 4vh;
+  max-height: 4.5vh;
+}
+.person__clickable-icons__left-block .clickable-icon a i img:nth-child(3) {
+  display: block;
+  min-height: 5vh;
+  max-height: 5.5vh;
 }
 .person__clickable-icons__right-block {
   display: flex;
   justify-content: end;
-  min-height: 5vh;
+  min-height: 6vh;
   /* border: 2px solid red; */
   /* background-color: #027BCE; */
+}
+.person__clickable-icons__right-block__left-bottom {
+  display: flex;
+  justify-content: center;
+}
+.person__clickable-icons__right-block__right-top {
+  display: flex;
+  justify-content: center;
 }
 .clickable-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2%;
-  /* font-size: 2rem; */
-  /* background-color: #027BCE; */
+  min-height: 5vh;
+  min-width: 5.6vh;
+  /* border: 2px solid whitesmoke; */
 }
 .clickable-icon .phone-number {
-  font-size: 3vh;
+  font-size: 3.5vh;
+  padding-right: 0.4vw;
 }
 .clickable-icon a i img {
   display: block;
+  min-height: 2vh;
   max-height: 4vh;
-  /* padding: 2%; */
-  /* font-size: 2rem; */
 }
 .cv__category-string {
   margin: 2%;
   padding: 0;
-  /* font-size: 2rem; */
+  font-size: 2rem;
 }
 .person__education-string {
   margin: 2%;

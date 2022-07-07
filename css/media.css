@@ -1,4 +1,69 @@
-.MainBlock_MainBlockClassName {
+@media only screen and (max-width: 1440px) {
+  .person__clickable-icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .person__clickable-icons__left-block {
+    justify-content: center;
+  }
+    .person__clickable-icons__right-block {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  body {
+    font-size: 3vw;
+  }
+  .phone-number {
+    font-size: 32vh;
+  }
+  .clickable-icon a i img {
+    min-height: 2vh;
+    max-height: 12vmin;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 3.6vw;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  body {
+    font-size: 3.7vw;
+  }
+  .wrapper {
+    min-width: 86vw;
+    /* max-width: 86vw; */
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 4vw;
+  }
+  .person__clickable-icons__right-block {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .person__clickable-icons__left-block div:nth-child(odd) {
+    display: none;
+  }
+    /* .person__clickable-icons__right-block__left-bottom {}
+  .person__clickable-icons__right-block__right-top {} */
+}
+
+/* Extra Small Devices, Phones */
+/* @media only screen and (max-width: 480px) {} */
+
+/* Custom, iPhone Retina */
+/* @media only screen and (max-width: 320px) {} */
+
+/* .MainBlock_MainBlockClassName {
   display: flex;
   justify-content: center;
   height: 85vh;
@@ -49,40 +114,4 @@
 .AsideActive_ImgSilverMedal,
 .AsideActive_ImgBronzeMedal {
   width: 5vw;
-}
-
-
-/* @media only screen and (max-width : 1280px) {} */
-
-@media only screen and (max-width: 1024px) {
-    .person__clickable-icons {
-      display: flex;
-      flex-direction: column;
-    }
-    .person__clickable-icons__left-block {
-      justify-content: center;
-    }
-    .person__clickable-icons__right-block {
-      justify-content: unset;
-      padding: 0;
-    }
-    .clickable-icon .phone-number {
-      font-size: 12vh;
-    }
-    .clickable-icon a i img {
-      min-height: 2vh;
-      max-height: 12vmin;
-    }
-  }
-
-/* Medium Devices, Desktops */
-/* @media only screen and (max-width : 992px) {} */
-
-/* Small Devices, Tablets */
-/* @media only screen and (max-width : 768px) {} */
-
-/* Extra Small Devices, Phones */
-/* @media only screen and (max-width : 480px) {} */
-
-/* Custom, iPhone Retina */
-/* @media only screen and (max-width : 320px) {} */
+} */

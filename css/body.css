@@ -2,9 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: Lato;
-  font-size: 2vw;
+  font-size: 3.6vh;
   font-weight: 300;
   line-height: 4rem;
+  word-wrap: break-word;
   color: rgb(108, 118, 160);
   background-color: #000012;
 }

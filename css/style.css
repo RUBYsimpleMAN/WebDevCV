@@ -8,20 +8,30 @@
   border-radius: 16px;
   box-shadow: 0 0 24px #027BCE;
 }
-.wrapper .content {
+.content {
   margin: 0;
   padding: 2%;
 }
-.wrapper .person__name {
-  margin: 8% 2% 0 14%;
+.beta {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-align: end;
+}
+.person__name {
+  margin: 6% 0 2% 14%;
   font-size: 5rem;
+  font-weight: 200;
 }
 .cv__category-title {
-  margin: 4% 2% 0 14%;
+  margin: 6% 2% 2% 14%;
   font-size: 3rem;
 }
 .person__target {
-  font-size: 1rem;
+  padding: 4% 0;
+  font-size: 1.8rem;
+  font-style: italic;
+  line-height: 3rem;
+  text-align: end;
 }
 .person__clickable-icons {
   display: flex;
@@ -31,9 +41,8 @@
 }
 .person__clickable-icons__left-block {
   display: flex;
+  justify-content: center;
   min-height: 6vh;
-  /* border: 2px solid magenta; */
-  /* background-color: #027BCE; */
 }
 .person__clickable-icons__left-block .clickable-icon a i img:nth-child(1) {
   display: block;
@@ -47,10 +56,8 @@
 }
 .person__clickable-icons__right-block {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   min-height: 6vh;
-  /* border: 2px solid red; */
-  /* background-color: #027BCE; */
 }
 .person__clickable-icons__right-block__left-bottom {
   display: flex;
@@ -66,7 +73,6 @@
   align-items: center;
   min-height: 5vh;
   min-width: 5.6vh;
-  /* border: 2px solid whitesmoke; */
 }
 .clickable-icon .phone-number {
   font-size: 3.5vh;
@@ -78,17 +84,11 @@
   max-height: 4vh;
 }
 .cv__category-string {
-  margin: 2%;
   padding: 0;
-  font-size: 2rem;
 }
 .person__education-string {
-  margin: 2%;
   padding: 0;
-  /* font-size: 2rem; */
 }
 .person__language-string {
-  margin: 2%;
   padding: 0;
-  /* font-size: 2rem; */
 }

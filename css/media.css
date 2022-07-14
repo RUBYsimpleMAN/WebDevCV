@@ -1,117 +1,83 @@
 @media only screen and (max-width: 1440px) {
   .person__clickable-icons {
-    display: flex;
     flex-direction: column;
-  }
-  .person__clickable-icons__left-block {
-    justify-content: center;
-  }
-    .person__clickable-icons__right-block {
-    display: block;
-    margin: 0 auto;
   }
 }
 @media only screen and (max-width: 1280px) {
-  body {
-    font-size: 3vw;
-  }
   .phone-number {
     font-size: 32vh;
   }
   .clickable-icon a i img {
-    min-height: 2vh;
-    max-height: 12vmin;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  body {
-    font-size: 3.6vw;
+    min-height: 4vh;
+    max-height: 4vmin;
   }
 }
 
+/* @media only screen and (max-width: 1024px) {} */
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  body {
-    font-size: 3.7vw;
-  }
   .wrapper {
-    min-width: 86vw;
-    /* max-width: 86vw; */
+    min-width: 92vw;
+    max-width: 92vw;
   }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  body {
-    font-size: 4vw;
+  .wrapper {
+    min-width: 94vw;
+    max-width: 94vw;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #027BCE;
   }
+  .content {
+    min-width: 90vw;
+    max-width: 90vw;
+    padding: 2%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
   .person__clickable-icons__right-block {
-    display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+  }
+  .person__clickable-icons__right-block__left-bottom {
+    padding: 4%;
   }
   .person__clickable-icons__left-block div:nth-child(odd) {
     display: none;
   }
-    /* .person__clickable-icons__right-block__left-bottom {}
-  .person__clickable-icons__right-block__right-top {} */
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string {
+    padding: 1%;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
+  .person__name {
+    margin: 6% 0;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  .cv__category-title {
+    margin: 0 auto;
+    padding: 14% 0 6% 0;
+    width: 70%;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: center;
+  }
+  .person__target {
+    padding: 12% 2% 10% 20%;
+    font-size: 1.4rem;
+  }  
+  .project-card {
+    padding: 1%;
+  }
 }
-
-/* Extra Small Devices, Phones */
-/* @media only screen and (max-width: 480px) {} */
 
 /* Custom, iPhone Retina */
 /* @media only screen and (max-width: 320px) {} */
-
-/* .MainBlock_MainBlockClassName {
-  display: flex;
-  justify-content: center;
-  height: 85vh;
-  padding: 0 4%;
-}
-.MainBlock_MainExtraClassName {
-  width: 78%;
-  padding: 0 1%;
-}
-.MainBlock_AsideExtraClassName {
-  width: 20%;
-  padding: 0 1%;
-}
-
-.AsideActive_SelfStyle {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  min-height: 95%;
-  max-height: 95%;
-  padding: 2vh 1% 0%;
-  font-family: Lato;
-  font-size: calc(3.5vw - (1vw - 0.3vw));
-  font-weight: 300;
-  text-align: center;
-  color: silver;
-  line-height: calc(6px + 5vmin);
-  border: 1px solid #61dafb80;
-  border-radius: 3px;
-  background-color: #61dafb20;
-  overflow: hidden;
-}
-.AsideActive_ChampionSportAndYear {
-  font-size: 1.6vw;
-  font-weight: 600;
-}
-.AsideActive_ChampionAthlete {
-  padding-top: 2vh;
-}
-.AsideActive_ChampionCountry {
-  font-size: 1.6vw;
-  font-weight: 600;
-  padding: 1vh;
-}
-
-.AsideActive_ImgGoldMedal,
-.AsideActive_ImgSilverMedal,
-.AsideActive_ImgBronzeMedal {
-  width: 5vw;
-} */

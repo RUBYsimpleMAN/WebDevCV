@@ -46,8 +46,7 @@
 }
 .person__clickable-icons__left-block .clickable-icon a i img:nth-child(1) {
   display: block;
-  min-height: 4vh;
-  max-height: 4.5vh;
+  min-height: 4.8vh;
 }
 .person__clickable-icons__left-block .clickable-icon a i img:nth-child(3) {
   display: block;
@@ -75,13 +74,18 @@
   min-width: 5.6vh;
 }
 .clickable-icon .phone-number {
-  font-size: 3.5vh;
-  padding-right: 0.4vw;
+  font-size: 4vh;
+  padding: 0 0.8vw 0 0.4vw;
 }
 .clickable-icon a i img {
   display: block;
-  min-height: 2vh;
+  min-height: 4vh;
   max-height: 4vh;
+}
+.cv__category-string a,
+.person__education-string a {
+  color: rgb(108, 118, 160);
+  text-decoration: none;
 }
 .cv__category-string {
   padding: 0;

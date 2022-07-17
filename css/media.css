@@ -9,7 +9,7 @@
   }
   .clickable-icon a i img {
     min-height: 4vh;
-    max-height: 4vmin;
+    max-height: 4vmax;
   }
 }
 
@@ -20,6 +20,10 @@
   .wrapper {
     min-width: 92vw;
     max-width: 92vw;
+  }
+  .clickable-icon .phone-number {
+    font-size: 4vmax;
+    padding: 0 0.8vw 0 0.4vw;
   }
 }
 
@@ -36,6 +40,13 @@
     max-width: 90vw;
     padding: 2%;
   }
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string {
+    padding: 1%;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -48,13 +59,6 @@
   }
   .person__clickable-icons__left-block div:nth-child(odd) {
     display: none;
-  }
-  .cv__category-string,
-  .person__education-string,
-  .person__language-string {
-    padding: 1%;
-    font-size: 1.4rem;
-    line-height: 2.6rem;
   }
   .person__name {
     margin: 6% 0;

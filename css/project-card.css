@@ -1,12 +1,38 @@
 .project-card {
-  padding: 0;
+  margin: 5vh 0;
+  padding: 2vmax 2vmin;
+  border: 2px solid rgb(108, 118, 160);
+  border-radius: 8px;
 }
-/* .project-card__title {}
+.project-card__title {
+  /* padding: 1vmax 1vmin; */
+  margin: 3% 0 2% 13%;
+  font-size: 2.4rem;
+}
+.project-card__title a,
+.project-card__source-description a {
+  color: rgb(108, 118, 160);
+  text-decoration: none;
+}
+.project-card__position,
+.project-card__source,
+.project-card__responsibilities,
+.project-card__TODO,
+.project-card__technologies {
+  display: flex;
+  margin: 2% 0;
+}
+.project-card__position-title,
+.project-card__source-title,
+.project-card__responsibilities-title,
+.project-card__TODO-title,
+.project-card__technologies-title {
+  padding-right: 1vw;
+}
+/* .project-card__responsibilities-description {} */
+/* 
 .project-card__position-title {}
 .project-card__position-description {}
-.project-card__responsibilities-title {}
-.project-card__responsibilities-description {}
-.project-card__responsibilities-TODO {}
 .project-card__technologies-title {}
 .project-card__technologies-description {}
 */

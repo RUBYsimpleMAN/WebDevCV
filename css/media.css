@@ -4,8 +4,10 @@
   }
 }
 @media only screen and (max-width: 1280px) {
-  .phone-number {
-    font-size: 32vh;
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string {
+    font-size: 2rem;
   }
   .clickable-icon a i img {
     min-height: 4vh;

@@ -53,6 +53,32 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+
+  .project-card__position-title,
+  .project-card__position-title a,
+  .project-card__responsibilities-title,
+  .project-card__responsibilities-title a,
+  .project-card__TODO-title,
+  .project-card__TODO-title a,
+  .project-card__technologies-title,
+  .project-card__technologies-title a {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+
+  .project-card__responsibilities-description,
+  .project-card__responsibilities-description a,
+  .project-card__source-description,
+  .project-card__source-description a,
+  .project-card__position-description,
+  .project-card__position-description a,
+  .project-card__TODO-description,
+  .project-card__TODO-description a,
+  .project-card__technologies-description,
+  .project-card__technologies-description a { 
+    font-size: 1.2rem;
+  }
   .person__clickable-icons__right-block {
     flex-direction: column-reverse;
   }

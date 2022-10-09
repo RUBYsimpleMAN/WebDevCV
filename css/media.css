@@ -60,6 +60,8 @@
   .project-card__responsibilities-title a,
   .project-card__TODO-title,
   .project-card__TODO-title a,
+  .project-card__source-title,
+  .project-card__source-title a,
   .project-card__technologies-title,
   .project-card__technologies-title a {
     font-size: 1.2rem;

@@ -54,10 +54,6 @@
   .willing-string {
     padding: 5%;
   }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
 
   .project-card__position-title,
   .project-card__position-title a,
@@ -87,6 +83,10 @@
     font-size: 1.2rem;
     line-height: 2.2rem;
   }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
   .person__clickable-icons__right-block {
     flex-direction: column-reverse;
   }

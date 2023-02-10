@@ -38,16 +38,21 @@
     box-shadow: 0 0 8px #027BCE;
   }
   .content {
+    margin: 0 auto;
     min-width: 90vw;
     max-width: 90vw;
-    padding: 2%;
+    padding: 0.4%;
   }
   .cv__category-string,
   .person__education-string,
-  .person__language-string {
+  .person__language-string,
+  .willing-string {
     padding: 1%;
     font-size: 1.4rem;
     line-height: 2.6rem;
+  }
+  .willing-string {
+    padding: 5%;
   }
 }
 
@@ -68,7 +73,6 @@
     font-weight: 400;
   }
 
-
   .project-card__responsibilities-description,
   .project-card__responsibilities-description a,
   .project-card__source-description,
@@ -78,8 +82,10 @@
   .project-card__TODO-description,
   .project-card__TODO-description a,
   .project-card__technologies-description,
-  .project-card__technologies-description a { 
+  .project-card__technologies-description a {
+    padding-top: 4.2%; 
     font-size: 1.2rem;
+    line-height: 2.2rem;
   }
   .person__clickable-icons__right-block {
     flex-direction: column-reverse;
@@ -109,8 +115,14 @@
     font-size: 1.4rem;
   }  
   .project-card {
-    padding: 1%;
+    padding: 2%;
   }
+  .project-card__title {
+    text-align: center;
+    padding: 4%;
+    margin: 0;
+  }
+
 }
 
 /* Custom, iPhone Retina */
